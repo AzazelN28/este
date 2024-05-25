@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+  </head>
+  <body>
+    <div id="editor"></div>
+    <script type="module" src="/main.js"></script>
+    <!--
+    <script>
+      const html = `<script>console.log('Ojete calor')`
+      const parser = new DOMParser()
+      console.log(parser)
+      const doc = parser.parseFromString(html, 'text/html')
+      console.log(doc)
+      const script = doc.querySelector('script')
+      // Esto es lo peligroso.
+      const importedScript = document.importNode(script, true)
+      document.body.appendChild(importedScript)
+    </script>
+    -->
+  </body>
+</html>

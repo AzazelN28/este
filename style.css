@@ -1,0 +1,8 @@
+#editor {
+  min-width: 2rem;
+  min-height: 2rem;
+
+  border: 1px solid red;
+
+  outline: 0;
+}
